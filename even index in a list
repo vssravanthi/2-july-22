@@ -1,0 +1,20 @@
+l=[]
+n=int(input("enter n:"))
+for i in range(n):
+    x=int(input("enter elements:"))
+    l.append(x)
+for x in l:
+    if x%2==0:
+        print(l.index(x))
+output:
+enter n:7
+enter elements:34
+enter elements:5
+enter elements:6
+enter elements:7
+enter elements:45
+enter elements:2
+enter elements:5
+0
+2
+5
